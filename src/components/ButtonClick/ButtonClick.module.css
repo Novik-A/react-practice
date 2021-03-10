@@ -1,0 +1,18 @@
+.inc {
+    grid-area: n;
+    background-color: lightskyblue;
+    border: 2px solid black;
+    font: 70px bolder;
+    outline: transparent;
+    border-radius: 10px;
+    /*color: lightskyblue;*/
+}
+.reset {
+    grid-area: c;
+    background-color: rosybrown;
+    border: 2px solid black;
+    font: 70px bolder;
+    outline: transparent;
+    border-radius: 10px;
+    /*color: darkred;*/
+}

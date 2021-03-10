@@ -1,0 +1,37 @@
+.App {
+  /*margin: 100px auto;*/
+  /*width: 400px;*/
+  /*display: grid;*/
+  /*grid-template-areas:*/
+  /*  'h h'*/
+  /*  'n c';*/
+  /*grid-template-rows: 200px 140px;*/
+  /*grid-template-columns: 180px 180px;*/
+  /*grid-gap: 40px;*/
+  /*opacity: 0.9;*/
+  /*padding: 40px;*/
+  /*border: 7px solid lightskyblue;*/
+  /*border-radius: 20px;*/
+
+  margin: 0 auto;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.count {
+  grid-area: h;
+  background-color: lightskyblue;
+  border: 2px solid black;
+  text-align: center;
+  font: 170px bolder;
+  border-radius: 10px;
+}
+.red {
+  grid-area: h;
+  background-color: lightskyblue;
+  border: 2px solid black;
+  text-align: center;
+  font: 170px bolder;
+  color: red;
+  border-radius: 10px;
+}

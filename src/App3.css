@@ -1,0 +1,69 @@
+.App {
+  padding: 100px 0 100px 0;
+  background-color: black;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.Counter {
+  background-color: black;
+  border: cornflowerblue 2px solid;
+  padding: 10px;
+  border-radius: 8px;
+  display: grid;
+  width: 300px;
+  height: 400px;
+}
+
+.Screen {
+  background-color: cornflowerblue;
+  border-radius: 8px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70pt;
+}
+.ScreenRed {
+  background-color: cornflowerblue;
+  border-radius: 8px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70pt;
+  color: darkred;
+}
+.Buttons {
+  background-color: black;
+  border-radius: 8px;
+  height: 45px;
+  padding: 5px;
+  border: cornflowerblue 2px solid;
+  display: grid;
+  grid-column-gap: 0;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.ButtonInsAct {
+  background-color: dodgerblue;
+  border-radius: 8px;
+  width: 100px;
+}
+.ButtonInsPass {
+  background-color: lightslategrey;
+  border-radius: 8px;
+  width: 100px;
+}
+.ButtonResAct {
+  background-color: indianred;
+  border-radius: 8px;
+  width: 100px;
+}
+.ButtonResPass {
+  background-color: rosybrown;
+  border-radius: 8px;
+  width: 100px;
+}
