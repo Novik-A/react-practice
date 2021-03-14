@@ -11,8 +11,11 @@ function App2() {
     const [value, setValue] = useState<number>(0)
     return (
         <div className="App">
-            <Accordion title={'Menu'} collapsed={collapsed} clickTitle={clickTitle}/>
-            <Rating value={value} setValue={(value) => setValue(value)}/>
+            <Accordion title={'Menu'}
+                       collapsed={collapsed}
+                       clickTitle={clickTitle}/>
+            <Rating value={value}
+                    setValue={(value) => setValue(value)}/>
         </div>
     );
 }
