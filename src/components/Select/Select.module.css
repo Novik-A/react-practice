@@ -1,8 +1,12 @@
+.select {
+    outline: none;
+}
 .select .main {
     border: 1px solid black;
     display: inline-block;
-    min-width: 65px;
+    min-width: 55px;
     min-height: 20px;
+    padding: 5px;
 }
 .items {
     position: absolute;

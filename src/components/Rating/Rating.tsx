@@ -20,8 +20,10 @@ export function Rating(props: RatingPropsType) {
     </div>
 }
 
-function Star(props: StarPropsType) {
+function StarMemo(props: StarPropsType) {
     return <span onClick={() => {props.setValue(props.value)}}>
         {props.selected ? <b>star </b> : 'star '}
+        {alert(props.value)}
         </span>
 }
+const Star = React.memo(StarMemo)

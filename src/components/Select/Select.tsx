@@ -11,7 +11,7 @@ type SelectPropsType = {
     items: ItemType[]
 }
 
-export function Select(props: SelectPropsType) {
+const SelectMemo: React.FC<SelectPropsType> = props => {
     const [active, setActive] = useState(false)
     const [hoveredElementValue, setHoveredElementValue] = useState(props.value)
     useEffect(() => {
@@ -24,6 +24,7 @@ export function Select(props: SelectPropsType) {
         props.onChange(value)
         toggleItem()
     }
+    // @ts-ignore
     const onKeyUp = (e: KeyboardEvent<HTMLDivElement>) => {
         if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
             for (let i = 0; i < props.items.length; i++) {
@@ -66,3 +67,5 @@ export function Select(props: SelectPropsType) {
         </div>
     )
 }
+
+export const Select = React.memo(SelectMemo)
