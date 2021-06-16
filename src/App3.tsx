@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './App3.css';
 import CounterBlock from "./Count";
 
+// project VLAD
 let count = 0
 function App3() {
     const [screenChange, setCount] = useState({sum: 0, brightIns: true, brightRes: false})
